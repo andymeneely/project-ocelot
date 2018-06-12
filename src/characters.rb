@@ -1,14 +1,11 @@
 require 'squib'
 require_relative 'version'
 
-# Note: run this code by running "rake" at the command line
-# To see full list of options, run "rake -T"
-
 data = Squib.xlsx file: 'data/game.xlsx', sheet: 0
 
 Squib::Deck.new(cards: data.nrows) do
   background color: :white
-  use_layout file: 'layouts/deck.yml'
+  use_layout file: 'layouts/characters.yml'
 
   text str: data.name, layout: :name
 
@@ -17,7 +14,7 @@ Squib::Deck.new(cards: data.nrows) do
 
   svg file: 'example.svg'
 
-  text str: MySquibGame::VERSION, layout: :version
+  text str: ProjectOcelot::VERSION, layout: :version
 
   build(:proofs) do
     safe_zone

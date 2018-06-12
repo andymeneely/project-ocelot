@@ -1,3 +1,3 @@
-module MySquibGame
-  VERSION = '1.0'
+module ProjectOcelot
+  VERSION = '0.1'
 end
