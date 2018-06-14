@@ -105,3 +105,92 @@ Your character can call in an NPC and you get to control them if you called them
 * Assault rifle
 * Bomb defusing kit
 * Body camera: automatically observes
+
+
+# From my Phone
+
+Here's a dump from my phone, will organize next.
+
+Prepared: lower cooldown of any action involving X
+
+Research: reveal a “situation” card to help deduce what’s going on. So it’s NOT an active shooter for example. Long-term goal to balance with short-term goals.  
+
+Situations are ambiguous but give clues. Level 1 you have 1 clue, and then generic stuff, maybe level 2 you have more. Level 3 is where you really need specialist to bring in. But is it too late?
+
+So the situation cards define maybe 6-8 of the cards. And maybe some of those situation cards are just extra rubble, or extra gunshot victims, or whatever. The clue might be in proportion, not a particular card.
+
+Community volunteer specialist: they can help reveal a level 3 card.
+
+“Connected” - calling a new NPC is easier
+
+Natural disasters
+
+Action surge: you can use an extra action this round, and you get a limited number of those per game. Like 1 or 2.
+
+Study pile: if you “study” an event card, you add a token to the pile. At 3,5,7, and 8 you get to reveal a situation card. Cards with a magnifying glass can be studied.
+
+“Studious” - get to add a free study to any action that’s not Sprint.
+
+Subaction: calm person
+
+Negotiate: (phone emoji) is a specialty one
+
+Rescue squad: good at stabilizing, clearing rubble
+
+Event cards have types:
+
+Rubble
+Trap
+Victim
+Enemy
+Hazards
+
+Events also have
+
+open/closed for line of sight
+A study icon (or two)
+Place for art
+Description box
+
+Should we carry out victims? Or is that too much? Maybe doesn’t fit the first ten minutes.
+
+And then classes and traits can give you bonuses to each type
+
+=== Events ===
+
+Injury: treatment goes up each round after 3 (victim)
+
+Grievous injury: panic on first character there (victim)
+
+Panicked civilian: calm them first, otherwise they take an injury each round (victim)
+
+Civilian defusing a bomb: final situation card (trap, victim)
+
+Collapsing rubble. Anyone who goes there will get trapped until 3 Clears. (Rubble, trap)
+
+Chemical spill: needs hazmat otherwise all adjacent victims take damage and characters take a panic (hazard)
+
+Shooter trap: if you go there you are held hostage and can only get a hostage negotiator to get out. Has a bunch of study opportunities
+
+Victim trap: they grab onto you and you can’t leave until you treat them
+
+Shooter: when there’s a clear line of sight they shoot and cause panic or injury
+
+Airplane crash: mega hazmat situation and lots of victims. Hurts all non-stabilized victims.
+
+Train crash: linear floorplan, chemical hazards
+
+Chemical factory
+
+Boat crashes into docks
+
+On a boat that blows up: a certain amount of rubble collapses sinks
+
+Skyscraper falls down
+(Look up split second game)
+
+Suicide bomber (enemy, hazard)
+
+Suicide shooter (enemy, victim)
+
+Shooter behind cover (rubble, enemy)
