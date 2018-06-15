@@ -1,16 +1,23 @@
 require 'squib'
 require_relative 'version'
 
-data = Squib.xlsx file: 'data/game.xlsx', sheet: 0
+# data = Squib.xlsx file: 'data/game.xlsx', sheet: 0
 
-Squib::Deck.new(cards: data.nrows) do
+data = Squib.csv data: <<~EOCSV
+Name,Action 1 Name,Action 1 Subactions
+Paramedic,Spring,3
+EOCSV
+
+Squib::Deck.new(cards: data.nrows, width: '70mm', height: '120mm') do
   background color: :white
   use_layout file: 'layouts/characters.yml'
 
   text str: data.name, layout: :name
 
-  text str: data.atk.map { |s| "#{s} ATK" }, layout: :ATK
-  text str: data.def.map { |s| "#{s} DEF" }, layout: :DEF
+  text str: data.action_1_name.map { |s| "#{s} ATK" }, layout: :ATK
+
+  # text str: data.atk.map { |s| "#{s} ATK" }, layout: :ATK
+  # text str: data.def.map { |s| "#{s} DEF" }, layout: :DEF
 
   svg file: 'example.svg'
 
