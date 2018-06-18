@@ -32,16 +32,30 @@ A bunch of talented first responders who arrive at a scene and attempt to uncove
 
 # Sub-Actions
 
-* Move to adjacent
+* Move to adjacent ➜
 * Observe: reveal adjacent event
-* Analyze: add an Analysis token, eventually eliminating Scenarios
+* Analyze: add an Analysis token, eventually eliminating Scenarios 🔍
 * Treat: add a medical token
 * Clear rubble
 * Extinguish fire
 * Calm person: remove a panic token
+* Call specialist
 * Disarm bomb (rare! need to call in the bomb squad for it)
 * Negotiate: (phone emoji) is a specialty one only Negotiator has
 * Contain: (phone emoji) is a specialty of Hazmat teams, and maybe someone has one with a huge cooldown.
+
+🔓
+👁
+⚠
+➕
+⚡
+💣
+💪
+☣
+☎
+☮
+🔫
+🔥
 
 # Situations and Scenario
 
@@ -180,6 +194,7 @@ Your character can call in an NPC and you get to control them if you called them
 * Prepared: lower cooldown of any action involving X
 * Connected: calling a new NPC is easier
 * Analytical: get a free Analyze to any action that has 2 or fewer sub-actions
+* Resurgent: when things are bad, you get a big boost
 
 ## Equipment
 
