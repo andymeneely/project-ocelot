@@ -56,6 +56,8 @@ A bunch of talented first responders who arrive at a scene and attempt to uncove
 ☮
 🔫
 🔥
+⛏️
+✋
 
 # Situations and Scenario
 
