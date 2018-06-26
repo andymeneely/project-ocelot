@@ -35,7 +35,7 @@ special:
   y: 1050
   x: 75
   align: center
-  font: Serif 9
+  font: Franklin Gothic Medium Cond, Serif 10
   height: 375
   width: 750
   valign: middle
@@ -51,9 +51,6 @@ action_1:
   font: Franklin Gothic Medium Cond, Segoe UI Symbol, 10
   align: center
   valign: middle
-
-
-
 
 action_2:
   extends: action_1

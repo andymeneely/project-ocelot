@@ -35,10 +35,7 @@ Squib::Deck.new(cards: data.nrows, width: 900, height: 1500) do
 
   text str: data.special, layout: :special
 
-  # Placeholder for now
-  rect layout: :art
-
-  # text str: data.action_1_name.map { |s| "#{s} ATK" }, layout: :ATK
+  rect layout: :art # Placeholder for now
 
   text str: ProjectOcelot::VERSION, layout: :version
 
@@ -48,6 +45,13 @@ Squib::Deck.new(cards: data.nrows, width: 900, height: 1500) do
   end
 
   save format: :png
+
+  # build(:pdf) do
+  save_pdf file: 'jobs.pdf',
+           width: 8.5 * dpi,
+           height: 11 * dpi
+
+  # end
 
   build(:pnp) do
     save_sheet prefix: 'pnp_sheet_',

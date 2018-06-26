@@ -74,11 +74,11 @@ Initial Energy | 5                                  |
                | ➜🔥                                 |
         A2Cost | 3                                  |
       Action 3 | Quick Remedy                       |
-               | ➕➜                                 |
+               | ➜ ➕                                |
         A3Cost | 3                                  |
-      Action 4 | Recuperate                         |
-               | ⚡⚡⚡                                |
-        A4Cost | 1                                  |
+      Action 4 | Inspire                            |
+               | (see below)                        |
+        A4Cost | 4                                  |
       Action 5 | Shoot                              |
                | 🔫                                  |
         A5Cost | 3                                  |
@@ -86,13 +86,12 @@ Initial Energy | 5                                  |
                | ✋                                  |
         A6Cost | 3                                  |
        Special | LEADER                             |
-               | Every colleague loses 1 point of P |
-               | anic at the beginning of each roun |
-               | d when outside with the Chief      |
+               | Colleagues lose 1 Panic when they  |
+               | begin a round outside with the Chi |
+               | ef                                 |
                |                                    |
-               | INSPIRATIONAL                      |
-               | May give ⚡⚡⚡ to a colleague for a  |
-               | cost of ⚡⚡⚡⚡                       |
+               | INSPIRE                            |
+               | May give ⚡⚡⚡ to a colleague.       |
                ╰------------------------------------╯
                ╭------------------------------------╮
           Name | EMT                                |
@@ -104,7 +103,7 @@ Initial Energy | 5                                  |
                | ➕                                  |
         A1Cost | 2                                  |
       Action 2 | Quick Remedy                       |
-               | ➕➜                                 |
+               | ➜ ➕                                |
         A2Cost | 2                                  |
       Action 3 | Stabilize                          |
                | ➕➕👁                                |
