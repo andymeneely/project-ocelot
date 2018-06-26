@@ -1,0 +1,251 @@
+               ╭------------------------------------╮
+          Name | Smoke Eater                        |
+        Career | Firefighter                        |
+Initial Energy | 3                                  |
+         Speed | 3                                  |
+     Equipment | 1                                  |
+      Action 1 | Smother                            |
+               | 🔥💪                                 |
+        A1Cost | 2                                  |
+      Action 2 | Douse                              |
+               | ➜🔥                                 |
+        A2Cost | 2                                  |
+      Action 3 | Treat                              |
+               | ➕                                  |
+        A3Cost | 2                                  |
+      Action 4 | Unearth                            |
+               | 💪 💪🔍                               |
+        A4Cost | 3                                  |
+      Action 5 | Assess                             |
+               | ➜👁🔍                                |
+        A5Cost | 3                                  |
+      Action 6 | Request Specialist                 |
+               | ✋                                  |
+        A6Cost | 4                                  |
+       Special | FIRE TRAINING                      |
+               | Does not panic due to Fire situati |
+               | ons.                               |
+               |                                    |
+               | SEASONED                           |
+               | Does not panic due to Rubble.      |
+               ╰------------------------------------╯
+               ╭------------------------------------╮
+          Name | Pipeman                            |
+        Career | Firefighter                        |
+Initial Energy | 6                                  |
+         Speed | 2                                  |
+     Equipment | 2                                  |
+      Action 1 | Extinguish                         |
+               | 🔥                                  |
+        A1Cost | 2                                  |
+      Action 2 | Run the Line                       |
+               | ➜🔥🔥                                |
+        A2Cost | 3                                  |
+      Action 3 | Treat                              |
+               | ➕                                  |
+        A3Cost | 3                                  |
+      Action 4 | Recuperate                         |
+               | ⚡⚡⚡                                |
+        A4Cost | 1                                  |
+      Action 5 | Dig                                |
+               | 💪 💪                                |
+        A5Cost | 3                                  |
+      Action 6 | Request Specialist                 |
+               | ✋                                  |
+        A6Cost | 5                                  |
+       Special | FIRE TRAINING                      |
+               | Does not panic due to Fire situati |
+               | ons.                               |
+               |                                    |
+               | ON THE LINE                        |
+               | Extinguish 🔥 can be applied to adj |
+               | acent situations                   |
+               ╰------------------------------------╯
+               ╭------------------------------------╮
+          Name | Chief                              |
+        Career | Leader                             |
+Initial Energy | 5                                  |
+         Speed | 2                                  |
+     Equipment | 1                                  |
+      Action 1 | Assess                             |
+               | ➜👁🔍                                |
+        A1Cost | 2                                  |
+      Action 2 | Douse                              |
+               | ➜🔥                                 |
+        A2Cost | 3                                  |
+      Action 3 | Quick Remedy                       |
+               | ➕➜                                 |
+        A3Cost | 3                                  |
+      Action 4 | Recuperate                         |
+               | ⚡⚡⚡                                |
+        A4Cost | 1                                  |
+      Action 5 | Shoot                              |
+               | 🔫                                  |
+        A5Cost | 3                                  |
+      Action 6 | Request Specialist                 |
+               | ✋                                  |
+        A6Cost | 3                                  |
+       Special | LEADER                             |
+               | Every colleague loses 1 point of P |
+               | anic at the beginning of each roun |
+               | d when outside with the Chief      |
+               |                                    |
+               | INSPIRATIONAL                      |
+               | May give ⚡⚡⚡ to a colleague for a  |
+               | cost of ⚡⚡⚡⚡                       |
+               ╰------------------------------------╯
+               ╭------------------------------------╮
+          Name | EMT                                |
+        Career | Medic                              |
+Initial Energy | 5                                  |
+         Speed | 3                                  |
+     Equipment | 1                                  |
+      Action 1 | Treat                              |
+               | ➕                                  |
+        A1Cost | 2                                  |
+      Action 2 | Quick Remedy                       |
+               | ➕➜                                 |
+        A2Cost | 2                                  |
+      Action 3 | Stabilize                          |
+               | ➕➕👁                                |
+        A3Cost | 3                                  |
+      Action 4 | Sprint                             |
+               | ➜➜                                 |
+        A4Cost | 2                                  |
+      Action 5 | Smother                            |
+               | 🔥💪                                 |
+        A5Cost | 3                                  |
+      Action 6 | Request Specialist                 |
+               | ✋                                  |
+        A6Cost | 5                                  |
+       Special | SEEN IT ALL                        |
+               | Does not panic due to Victim situa |
+               | tions.                             |
+               |                                    |
+               | FIELD AWARENESS                    |
+               | May add 👁 to any action with ➕ for |
+               |  1 ⚡                               |
+               ╰------------------------------------╯
+               ╭------------------------------------╮
+          Name | Paramedic                          |
+        Career | Medic                              |
+Initial Energy | 3                                  |
+         Speed | 2                                  |
+     Equipment | 2                                  |
+      Action 1 | Treat                              |
+               | ➕                                  |
+        A1Cost | 2                                  |
+      Action 2 | Stabilize                          |
+               | ➕➕👁                                |
+        A2Cost | 2                                  |
+      Action 3 | Heal                               |
+               | ➕➕➕                                |
+        A3Cost | 4                                  |
+      Action 4 | Assess                             |
+               | ➜👁🔍                                |
+        A4Cost | 2                                  |
+      Action 5 | Dig                                |
+               | 💪 💪                                |
+        A5Cost | 4                                  |
+      Action 6 | Request Specialist                 |
+               | ✋                                  |
+        A6Cost | 4                                  |
+       Special | SEEN IT ALL                        |
+               | Does not panic due to Victim situa |
+               | tions.                             |
+               |                                    |
+               | MEDICAL TRAINING                   |
+               | May add 🔍 to any action with ➕ for |
+               |  1 ⚡                               |
+               ╰------------------------------------╯
+               ╭------------------------------------╮
+          Name | Beat Cop                           |
+        Career | Police                             |
+Initial Energy | 2                                  |
+         Speed | 3                                  |
+     Equipment | 1                                  |
+      Action 1 | Assess                             |
+               | ➜👁🔍                                |
+        A1Cost | 3                                  |
+      Action 2 | Treat                              |
+               | ➕                                  |
+        A2Cost | 2                                  |
+      Action 3 | Sprint                             |
+               | ➜➜                                 |
+        A3Cost | 3                                  |
+      Action 4 | Shoot                              |
+               | 🔫                                  |
+        A4Cost | 2                                  |
+      Action 5 | Unearth                            |
+               | 💪 💪🔍                               |
+        A5Cost | 4                                  |
+      Action 6 | Request Specialist                 |
+               | ✋                                  |
+        A6Cost | 5                                  |
+       Special | AUTHORITATIVE PRESENCE             |
+               | Does not panic due to Hostile situ |
+               | ations.                            |
+               |                                    |
+               | MARKSMAN                           |
+               | Can Shoot 🔫 via line of sight.     |
+               ╰------------------------------------╯
+               ╭------------------------------------╮
+          Name | Detective                          |
+        Career | Police                             |
+Initial Energy | 3                                  |
+         Speed | 2                                  |
+     Equipment | 1                                  |
+      Action 1 | Assess                             |
+               | ➜👁🔍                                |
+        A1Cost | 2                                  |
+      Action 2 | Treat                              |
+               | ➕                                  |
+        A2Cost | 2                                  |
+      Action 3 | Douse                              |
+               | ➜🔥                                 |
+        A3Cost | 3                                  |
+      Action 4 | Shoot                              |
+               | 🔫                                  |
+        A4Cost | 2                                  |
+      Action 5 | Examine                            |
+               | ➜👁👁🔍🔍                              |
+        A5Cost | 5                                  |
+      Action 6 | Request Specialist                 |
+               | ✋                                  |
+        A6Cost | 4                                  |
+       Special | AUTHORITATIVE PRESENCE             |
+               | Does not panic due to Hostile situ |
+               | ations.                            |
+               |                                    |
+               | MARKSMAN                           |
+               | Can Shoot 🔫 via line of sight.     |
+               ╰------------------------------------╯
+               ╭------------------------------------╮
+          Name | Good Samaritan                     |
+        Career | Civilian                           |
+Initial Energy | 8                                  |
+         Speed | 2                                  |
+     Equipment | 2                                  |
+      Action 1 | Sprint                             |
+               | ➜➜                                 |
+        A1Cost | 3                                  |
+      Action 2 | Treat                              |
+               | ➕                                  |
+        A2Cost | 2                                  |
+      Action 3 | Extinguish                         |
+               | 🔥                                  |
+        A3Cost | 2                                  |
+      Action 4 | Dig                                |
+               | 💪 💪                                |
+        A4Cost | 2                                  |
+      Action 5 | Report                             |
+               | 👁👁                                 |
+        A5Cost | 1                                  |
+      Action 6 | Request Specialist                 |
+               | ✋                                  |
+        A6Cost | 6                                  |
+       Special | PANICKY                            |
+               | Start with Panic of 2. HEROIC ADRE |
+               | NALINE                             |
+               | Use 1 extra Trait card.            |
+               ╰------------------------------------╯

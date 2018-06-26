@@ -1,27 +1,82 @@
 name:
-  x: 90
+  x: 0
   y: 90
-  width: 500
+  width: 900
   height: 50
-  font: Arial 18
+  font: Capture It, Arial 18
   valign: middle
-  align: left
+  align: center
   ellipsize: false
+career:
+  extends: name
+  y: += 60
+  height: 25
+  font: Franklin Gothic Heavy, Serif 10
 
-ATK:
+initial_energy:
   x: 90
-  y: 190
-  width: 200
-  height: 50
-  font: Arial 12
+  y: 200
+  font: Franklin Gothic Heavy, Serif 10
+
+speed:
+  extends: initial_energy
+  x: += 350
+
+art:
+  x: 450
+  y: 275
+  width: 375
+  height: 375
+  stroke_width: 1
+  stroke_color: black
+  radius: 25
+
+special:
+  y: 1050
+  x: 75
+  align: center
+  font: Serif 9
+  height: 375
+  width: 750
   valign: middle
-  align: left
-  ellipsize: false
-DEF:
-  extends: ATK
-  y: += 75
+
+action_1:
+  x: 125
+  y: 300
+  width: 300
+  height: 150
+  stroke_color: black
+  stroke_width: 1
+  radius: 15
+  font: Franklin Gothic Medium Cond, Segoe UI Symbol, 10
+  align: center
+  valign: middle
+
+
+
+
+action_2:
+  extends: action_1
+  y: += 175
+
+action_3:
+  extends: action_2
+  y: += 200
+
+action_4:
+  extends: action_3
+  x: += 325
+
+action_5:
+  extends: action_3
+  y: += 175
+
+action_6:
+  extends: action_3
+  x: += 325
+  y: += 175
 
 version:
-  font: Arial 6
-  x: 725
-  y: 45
+  font: Times New Roman,serif 6
+  x: 800
+  y: 1425
