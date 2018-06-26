@@ -44,14 +44,13 @@ Squib::Deck.new(cards: data.nrows, width: 900, height: 1500) do
     cut_zone
   end
 
-  save format: :png
+  save format: :png, prefix: 'job_'
 
-  # build(:pdf) do
-  save_pdf file: 'jobs.pdf',
-           width: 8.5 * dpi,
-           height: 11 * dpi
-
-  # end
+  build(:pdf) do
+    save_pdf file: 'jobs.pdf',
+             width: 8.5 * dpi,
+             height: 11 * dpi
+  end
 
   build(:pnp) do
     save_sheet prefix: 'pnp_sheet_',

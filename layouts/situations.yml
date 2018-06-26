@@ -1,0 +1,28 @@
+name:
+  x: 0
+  y: 90
+  width: 825
+  height: 50
+  font: Capture It, Arial 18
+  valign: middle
+  align: center
+  ellipsize: false
+subtitle:
+  extends: name
+  y: += 60
+  height: 25
+  font: Franklin Gothic Heavy, Serif 10
+
+special:
+  y: 725
+  x: 75
+  align: center
+  font: Franklin Gothic Medium Cond, Serif 10
+  height: 375
+  width: 675
+  valign: middle
+
+version:
+  font: Times New Roman,serif 6
+  x: 800
+  y: 1425

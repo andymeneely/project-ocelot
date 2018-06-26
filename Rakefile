@@ -6,13 +6,14 @@ require 'rake/clean'
 CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
 desc 'By default, just build the deck without extra options'
-task default: [:jobs]
+task default: [:jobs, :situations]
 
 desc 'Build everything, with all the options'
-task all: [:with_pnp, :with_proofs, :jobs]
+task all: [:with_pnp, :with_proofs, :with_pdf, :jobs, :situations]
 
 desc 'Build the deck'
-task(:jobs) { load 'src/jobs.rb' }
+task(:jobs)       { load 'src/jobs.rb' }
+task(:situations) { load 'src/situations.rb' }
 
 desc 'Enable proof lines'
 task(:with_proofs) do
@@ -24,4 +25,10 @@ desc 'Enable print-and-play builds'
 task(:with_pnp) do
   puts "Enabling print-and-play builds."
   Squib.enable_build_globally :pnp
+end
+
+desc 'Enable PDF build'
+task(:with_pdf) do
+  puts "Enabling PDF builds"
+  Squib.enable_build_globally :pdf
 end
