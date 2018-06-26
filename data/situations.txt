@@ -1,20 +1,16 @@
             ╭------------------------------------╮
-       Name | Injury                             |
+       Name | Simple Injury                      |
       Level | 1                                  |
      Type 1 | Victim                             |
      Type 2 |                                    |
    Analysis | 1                                  |
       Cthru | Yes                                |
-      Need1 | Treat                              |
-   Need1Amt | 2                                  |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat | 2                                  |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special | URGENT: Unless Handled, add 1 Trea |
             | t each Round                       |
       Story | "I got a POI over here"            |
@@ -28,16 +24,12 @@ Total Needs | 2                                  |
      Type 2 | Trap                               |
    Analysis |                                    |
       Cthru | Yes                                |
-      Need1 | Treat                              |
-   Need1Amt | 2                                  |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat | 2                                  |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special | Cannot exit the situation until ha |
             | ndled                              |
       Story | "They just won't let go of me"     |
@@ -45,25 +37,21 @@ Total Needs | 2                                  |
    subtitle | Level 1 Victim Trap                |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Partially Buried Victim            |
+       Name | Partly Buried Victim               |
       Level | 1                                  |
      Type 1 | Victim                             |
      Type 2 | Rubble                             |
    Analysis | 1                                  |
       Cthru | No                                 |
-      Need1 | Treat                              |
-   Need1Amt | 1                                  |
-      Need2 | Clear                              |
-   Need2Amt | 1                                  |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat | 1                                  |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special |                                    |
       Story |                                    |
-Total Needs | 2                                  |
+Total Needs | 1                                  |
    subtitle | Level 1 Victim Rubble              |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -73,16 +61,12 @@ Total Needs | 2                                  |
      Type 2 | Hazard                             |
    Analysis |                                    |
       Cthru | No                                 |
-      Need1 | Treat                              |
-   Need1Amt | 4                                  |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat | 4                                  |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special | Player who reveals this card gains |
             |  1 Panic level. Add                |
       Story | "I was not expecting to see that." |
@@ -95,18 +79,14 @@ Total Needs | 4                                  |
       Level | 1                                  |
      Type 1 | Rubble                             |
      Type 2 |                                    |
-   Analysis | 0                                  |
+   Analysis |                                    |
       Cthru | No                                 |
-      Need1 | Clear                              |
-   Need1Amt | 3                                  |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear | 3                                  |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special |                                    |
       Story |                                    |
 Total Needs | 3                                  |
@@ -119,16 +99,12 @@ Total Needs | 3                                  |
      Type 2 | Trap                               |
    Analysis | 1                                  |
       Cthru | No                                 |
-      Need1 | Clear                              |
-   Need1Amt | 2                                  |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear | 2                                  |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special |                                    |
       Story |                                    |
 Total Needs | 2                                  |
@@ -141,20 +117,16 @@ Total Needs | 2                                  |
      Type 2 | Hazard                             |
    Analysis | 1                                  |
       Cthru | No                                 |
-      Need1 | Clear                              |
-   Need1Amt | 1                                  |
-      Need2 | Extinguish                         |
-   Need2Amt | 1                                  |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear | 1                                  |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special | Unless handled, add 1 Extinguish e |
             | very round                         |
       Story |                                    |
-Total Needs | 2                                  |
+Total Needs | 1                                  |
    subtitle | Level 1 Rubble Hazard              |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -164,16 +136,12 @@ Total Needs | 2                                  |
      Type 2 |                                    |
    Analysis |                                    |
       Cthru | Yes                                |
-      Need1 | Extinguish                         |
-   Need1Amt | 3                                  |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish | 2                                  |
+      shoot |                                    |
+     defuse |                                    |
+    contain | 1                                  |
     Special | URGENT: Unless handled, add Exting |
             | uish each round. EMERGENCY: Unless |
             |  handled, add 2 Extinguish and 1 P |
@@ -189,16 +157,12 @@ Total Needs | 3                                  |
      Type 2 |                                    |
    Analysis |                                    |
       Cthru | Yes                                |
-      Need1 | Extinguish                         |
-   Need1Amt | 3                                  |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish | 3                                  |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special |                                    |
       Story |                                    |
 Total Needs | 3                                  |
@@ -211,16 +175,12 @@ Total Needs | 3                                  |
      Type 2 | Trap                               |
    Analysis |                                    |
       Cthru | Yes                                |
-      Need1 | Shoot                              |
-   Need1Amt | 1                                  |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish |                                    |
+      shoot | 1                                  |
+     defuse |                                    |
+    contain |                                    |
     Special | Cannot exit until situation is han |
             | dled                               |
       Story | "How many more are there??"        |
@@ -228,22 +188,18 @@ Total Needs | 1                                  |
    subtitle | Level 1 Hostile Trap               |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Fully Buried Victim                |
+       Name | Buried Victim                      |
       Level | 2                                  |
      Type 1 | Rubble                             |
      Type 2 | Victim                             |
    Analysis | 2                                  |
       Cthru | No                                 |
-      Need1 | Rubble                             |
-   Need1Amt | 3                                  |
-      Need2 | Treat                              |
-   Need2Amt | 2                                  |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat | 2                                  |
+      clear | 3                                  |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special | Cannot treat the victim until they |
             |  are cleared. URGENT: Unless Handl |
             | ed, add 1 Treat each round         |
@@ -258,16 +214,12 @@ Total Needs | 5                                  |
      Type 2 |                                    |
    Analysis | 1                                  |
       Cthru | Yes                                |
-      Need1 | Defuse                             |
-   Need1Amt | 1                                  |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse | 1                                  |
+    contain |                                    |
     Special | EMERGENCY: Unless defused, lose sc |
             | enario                             |
       Story |                                    |
@@ -281,16 +233,12 @@ Total Needs | 1                                  |
      Type 2 |                                    |
    Analysis |                                    |
       Cthru | Yes                                |
-      Need1 | Extinguish                         |
-   Need1Amt | 4                                  |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish | 4                                  |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special | URGENT: Unless handled, add 1 Exti |
             | nguish each round. If a colleague  |
             | starts a round with 5 or more Exti |
@@ -307,16 +255,12 @@ Total Needs | 4                                  |
      Type 2 |                                    |
    Analysis |                                    |
       Cthru |                                    |
-      Need1 |                                    |
-   Need1Amt |                                    |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special | Player who reveals this card gains |
             |  1 Panic level.                    |
       Story |                                    |
@@ -325,25 +269,21 @@ Total Needs | 0                                  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Flashover                          |
-      Level |                                    |
-     Type 1 |                                    |
+      Level | 2                                  |
+     Type 1 | Hazard                             |
      Type 2 |                                    |
    Analysis |                                    |
       Cthru |                                    |
-      Need1 |                                    |
-   Need1Amt |                                    |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special |                                    |
       Story |                                    |
 Total Needs | 0                                  |
-   subtitle | Level                              |
+   subtitle | Level 2 Hazard                     |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Locked Door                        |
@@ -352,19 +292,15 @@ Total Needs | 0                                  |
      Type 2 |                                    |
    Analysis |                                    |
       Cthru | No                                 |
-      Need1 | Clear                              |
-   Need1Amt | 4                                  |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special |                                    |
       Story |                                    |
-Total Needs | 4                                  |
+Total Needs | 0                                  |
    subtitle | Level 2 Rubble                     |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -374,16 +310,12 @@ Total Needs | 4                                  |
      Type 2 |                                    |
    Analysis |                                    |
       Cthru |                                    |
-      Need1 |                                    |
-   Need1Amt |                                    |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special |                                    |
       Story |                                    |
 Total Needs | 0                                  |
@@ -396,16 +328,12 @@ Total Needs | 0                                  |
      Type 2 |                                    |
    Analysis |                                    |
       Cthru |                                    |
-      Need1 |                                    |
-   Need1Amt |                                    |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special |                                    |
       Story |                                    |
 Total Needs | 0                                  |
@@ -418,16 +346,12 @@ Total Needs | 0                                  |
      Type 2 |                                    |
    Analysis |                                    |
       Cthru |                                    |
-      Need1 |                                    |
-   Need1Amt |                                    |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special |                                    |
       Story |                                    |
 Total Needs | 0                                  |
@@ -440,16 +364,12 @@ Total Needs | 0                                  |
      Type 2 |                                    |
    Analysis |                                    |
       Cthru |                                    |
-      Need1 |                                    |
-   Need1Amt |                                    |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special |                                    |
       Story |                                    |
 Total Needs | 0                                  |
@@ -462,16 +382,12 @@ Total Needs | 0                                  |
      Type 2 |                                    |
    Analysis |                                    |
       Cthru |                                    |
-      Need1 |                                    |
-   Need1Amt |                                    |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special |                                    |
       Story |                                    |
 Total Needs | 0                                  |
@@ -479,70 +395,58 @@ Total Needs | 0                                  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Active Shooter                     |
-      Level |                                    |
-     Type 1 |                                    |
-     Type 2 |                                    |
-   Analysis |                                    |
-      Cthru |                                    |
-      Need1 |                                    |
-   Need1Amt |                                    |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
-    Special |                                    |
-      Story |                                    |
-Total Needs | 0                                  |
-   subtitle | Level                              |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Suicide Bomber                     |
-      Level |                                    |
-     Type 1 |                                    |
-     Type 2 |                                    |
-   Analysis |                                    |
-      Cthru |                                    |
-      Need1 |                                    |
-   Need1Amt |                                    |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
-    Special |                                    |
-      Story |                                    |
-Total Needs | 0                                  |
-   subtitle | Level                              |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Faulty Wiring                      |
-      Level |                                    |
+      Level | 3                                  |
      Type 1 | Scenario                           |
      Type 2 |                                    |
    Analysis |                                    |
       Cthru |                                    |
-      Need1 |                                    |
-   Need1Amt |                                    |
-      Need2 |                                    |
-   Need2Amt |                                    |
-      Need3 |                                    |
-   Need3Amt |                                    |
-      Need4 |                                    |
-   Need4Amt |                                    |
-      Need5 |                                    |
-   Need5Amt |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
+    Special |                                    |
+      Story |                                    |
+Total Needs | 0                                  |
+   subtitle | Level 3 Scenario                   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Suicide Bomber                     |
+      Level | 3                                  |
+     Type 1 | Scenario                           |
+     Type 2 |                                    |
+   Analysis |                                    |
+      Cthru |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
+    Special |                                    |
+      Story |                                    |
+Total Needs | 0                                  |
+   subtitle | Level 3 Scenario                   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Faulty Wiring                      |
+      Level | 3                                  |
+     Type 1 | Scenario                           |
+     Type 2 |                                    |
+   Analysis |                                    |
+      Cthru |                                    |
+      treat |                                    |
+      clear |                                    |
+ extinguish |                                    |
+      shoot |                                    |
+     defuse |                                    |
+    contain |                                    |
     Special | Reveal all cards when this is reve |
             | aled. Must Extinguish all flames b |
             | y end of Final Round, otherwise lo |
             | se scenario                        |
       Story |                                    |
 Total Needs | 0                                  |
-   subtitle | Level  Scenario                    |
+   subtitle | Level 3 Scenario                   |
             ╰------------------------------------╯

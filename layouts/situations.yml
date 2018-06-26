@@ -13,6 +13,35 @@ subtitle:
   height: 25
   font: Franklin Gothic Heavy, Serif 10
 
+treat:
+  x: 75
+  y: 300
+  width: 200
+  height: 200
+  radius: 25
+  stroke_width: 2
+  stroke_color: black
+  valign: middle
+  align: center
+  font: Franklin Gothic Medium Cond, Segoe UI Symbol, 16
+extinguish:
+  extends: treat
+  x: += 225
+clear:
+  extends: extinguish
+  x: += 225
+
+shoot:
+  extends: treat
+  y: += 225
+defuse:
+  extends: shoot
+  x: += 225
+contain:
+  extends: defuse
+  x: += 225
+
+
 special:
   y: 725
   x: 75

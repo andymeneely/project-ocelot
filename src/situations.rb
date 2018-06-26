@@ -19,6 +19,22 @@ Squib::Deck.new(cards: data.nrows) do
   text str: data.name, layout: :name
   text str: data.subtitle, layout: :subtitle
 
+  %w(treat extinguish clear shoot defuse contain).each do | need |
+    emojis = data[need].map do |n|
+      n.to_i == 0 ? '' : emoji_for(need)
+    end
+    text str: emojis, layout: need
+
+    text str: data[need],
+         layout: need,
+         font: 'Franklin Gothic Heavy, Serif 10',
+         valign: :bottom,
+         align: :right,
+         width: 190
+
+    rect layout: need
+  end
+
   text str: data.special, layout: :special
 
   text str: ProjectOcelot::VERSION, layout: :version

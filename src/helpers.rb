@@ -15,3 +15,17 @@ def newlineate(col, item)
   return nil if item.nil?
   item.to_s.gsub "%n", "\n"
 end
+
+def emoji_for(str)
+  case str.to_s.downcase
+  when 'CThru'      then '👁'
+  when 'energy'     then '⚡'
+  when 'defuse'     then '💣'
+  when 'clear'      then '💪'
+  when 'contain'    then '☣'
+  when 'request'    then '✋'
+  when 'shoot'      then '🔫'
+  when 'treat'      then '➕'
+  when 'extinguish' then '🔥'
+  end
+end
